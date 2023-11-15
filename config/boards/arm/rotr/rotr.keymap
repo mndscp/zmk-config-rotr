@@ -27,7 +27,8 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		three {
-			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
+			bindings = <&kp J &lt 4 K &kp L>;
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 		};
 		shift {
 			label = "shift";
