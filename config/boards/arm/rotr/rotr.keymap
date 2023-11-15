@@ -19,6 +19,7 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		three {
+			triggers-per-rotation = <36>;
 			bindings = <&kp J &lt 4 K &kp L>;
 			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 		};
