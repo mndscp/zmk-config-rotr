@@ -32,7 +32,7 @@
 		};
 		shift {
 			label = "shift";
-			bindings = <&bt BT_CLR &trans &rgb_ug RGB_TOG>;
+			bindings = <&bt BT_CLR &trans &bootloader>;
 			sensor-bindings = <&def_lshft>;
 		};
 	};
